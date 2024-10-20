@@ -9,9 +9,11 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.ProgressBar
 import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.android.identity.android.legacy.Utility
 import com.google.firebase.auth.FirebaseAuth
+import com.apoorv.dscnotes.Utility.showToast
 
 class LoginActivity : AppCompatActivity() {
 
@@ -59,10 +61,10 @@ class LoginActivity : AppCompatActivity() {
                         startActivity(Intent(this, MainActivity::class.java))
                         finish()
                     } else {
-                        Utility.showToast(this, "Email not verified, Please verify your email.")
+                        showToast(this, "Email not verified, Please verify your email.")
                     }
                 } else {
-                    Utility.showToast(this, task.exception?.localizedMessage ?: "Login failed")
+                    showToast(this, task.exception?.localizedMessage ?: "Login failed")
                 }
             }
     }
