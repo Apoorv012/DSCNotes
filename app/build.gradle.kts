@@ -53,9 +53,13 @@ dependencies {
     implementation(libs.firebase.auth)
     implementation(libs.firebase.database)
     implementation(libs.firebase.firestore)
+    implementation(libs.androidx.foundation.android)
+    implementation(libs.androidx.navigation.common.ktx)
     testImplementation(libs.junit)
+    implementation("com.firebaseui:firebase-ui-firestore:8.0.2")
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
 
     val lottieVersion = "3.4.0"
     implementation ("com.airbnb.android:lottie:$lottieVersion")

@@ -18,7 +18,7 @@ class NoteDetails : AppCompatActivity() {
     private lateinit var contentEditText: EditText
     private lateinit var saveNoteBtn: ImageButton
     private lateinit var pageTitleTextView: TextView
-    private lateinit var deleteNoteTextViewBtn: TextView
+//    private lateinit var deleteNoteTextViewBtn: TextView
 
     private var title: String? = null
     private var content: String? = null
