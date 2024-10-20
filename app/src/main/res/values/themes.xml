@@ -1,8 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.DSCNotes" parent="Theme.AppCompat.DayNight.NoActionBar">
-        <item name="android:statusBarColor" tools:targetAPI="l">@color/black</item>
+    <style name="Base.Theme.DSCNotes" parent="Theme.AppCompat.Light.NoActionBar">
+<!--        <item name="android:statusBarColor" tools:targetAPI="l">@color/black</item>-->
     </style>
 
-    <style name="Theme.DSCNotes" parent="Base.Theme.DSCNotes" />
 </resources>

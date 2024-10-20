@@ -4,9 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginVertical="16dp"
-    android:layout_marginHorizontal="32dp"
-    tools:context=".LoginActivity">
+    tools:context=".LoginActivity"
+    android:background="@color/white">
     <ImageView
         android:layout_width="128dp"
         android:layout_height="128dp"
@@ -72,7 +71,7 @@
             />
 
 
-        <com.google.android.material.button.MaterialButton
+        <Button
             android:layout_width="match_parent"
             android:id="@+id/login_btn"
             android:layout_height="64dp"
