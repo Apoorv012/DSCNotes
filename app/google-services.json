@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "539826842042",
+    "project_id": "dsc-notes",
+    "storage_bucket": "dsc-notes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539826842042:android:0374ae2d3b0bc382015583",
+        "android_client_info": {
+          "package_name": "com.apoorv.dscnotes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFB0XOe7XD7k2J4QY7CkO7ClXLrYtZckg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
